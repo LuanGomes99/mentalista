@@ -1,0 +1,82 @@
+body {
+  background: url(https://cdn.discordapp.com/attachments/990296596849782804/1070432395507019899/Storm.gif) no-repeat;
+    background-size: cover;
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Montserrat';
+  }
+  
+  main {
+  background: rgb(109,31,139);
+  background: linear-gradient(292deg, rgba(109,31,139,1) 14%, rgba(118,60,193,1) 87%);
+    width: 450px;
+    height: 300px;
+    border-radius: 0 60px 0 60px;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-content: center; 
+  } 
+  label {
+    font-size: 18px;
+    color: #fff;
+        display: grid;
+    justify-items: center;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button { 
+      -webkit-appearance: none;
+      
+  }
+  input[type=number] { 
+     -moz-appearance: textfield;
+     appearance: textfield;
+  
+  }
+  
+  
+  input[type="button"] {
+    text-align: center;
+    width: 90px;
+    height: 35px;
+    background: #FC440F;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    padding-left: 11px;
+  }
+  
+  input[type="button"]:hover {
+    background: #8844EE;
+  }
+  
+  p.errou {
+    color: #FC440F;
+    font-weight: 500;
+  }
+  
+  p.acertou {
+    color: #898952;
+    font-weight: 500;
+  }
+  
+  input {
+    display: flex;
+    margin-top: 20px;
+    width: 240px;
+    height: 25px;
+    border-radius: 40px; 
+    border: none;
+    outline: 0;
+    padding: 0 10px;
+    font-size: 18px; 
+  }
+  
+  img {
+    width: 300px;
+    position: absolute;
+    left: 310px;
+    top: 0;
+  }
