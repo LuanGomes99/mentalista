@@ -4,7 +4,7 @@ Este é um simples **jogo de adivinhação de números**, onde o objetivo é ace
 
 <p align="center">
   <a href="https://codepen.io/LGomess/full/WNKYJEr">
-    <img src="https://cdn.discordapp.com/attachments/990296596849782804/1071909230824669234/img-Mentalista.jpg" width="550">
+    <img src="https://cdn.discordapp.com/attachments/990296596849782804/1071909230824669234/img-Mentalista.jpg?ex=66394f43&is=6637fdc3&hm=5239b1c7bd43cc770f641821108aa1039b08c5d804fb0ae82c4ac565829c5cb2&" width="550">
   </a>
 </p>
 
