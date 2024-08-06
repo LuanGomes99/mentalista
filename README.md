@@ -4,6 +4,10 @@
 
 O Mentalista é um jogo de adivinhação no qual o jogador deve tentar descobrir um número secreto gerado aleatoriamente pelo sistema. O jogador tem um número limitado de tentativas para acertar o número. A cada tentativa, o sistema informa se o número digitado é maior ou menor que o número secreto.
 
+  <a href="https://codepen.io/LGomess/full/xxJJNdV">
+      <img src="https://raw.githubusercontent.com/LuanGomes99/adivinhe-o-numero/main/src/Fundo.png">
+  </a>
+
 ### Funcionalidades
 
 - **Gerar Número Secreto**: O jogo gera um número aleatório entre 1 e 100 no início de cada rodada.
