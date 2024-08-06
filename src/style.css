@@ -1,0 +1,74 @@
+body {
+  background: url(/src/BackgroundGame.gif) no-repeat;
+  background-size: cover;
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  background: linear-gradient(292deg, rgba(109, 31, 139, 1) 14%, rgba(118, 60, 193, 1) 87%);
+  width: 450px;
+  height: 300px;
+  border-radius: 0 60px 0 60px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+label {
+  font-size: 18px;
+  color: #fff;
+  display: grid;
+  justify-items: center;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  display: flex;
+  margin-top: 20px;
+  width: 240px;
+  height: 25px;
+  border-radius: 40px;
+  border: none;
+  outline: 0;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+button {
+  text-align: center;
+  width: auto;
+  height: 35px;
+  background: #FC440F;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #8844EE;
+}
+
+p.errou {
+  color: #FC440F;
+  font-weight: 500;
+}
+
+p.acertou {
+  color: #e7e7e7;
+  font-weight: 500;
+}
+
+#tentativas {
+  color: #fff;
+}

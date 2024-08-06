@@ -1,30 +1,64 @@
-# **Adivinhe o Número**
-## Introdução
-Este é um simples **jogo de adivinhação de números**, onde o objetivo é acertar o número escolhido aleatoriamente pelo computador, entre **1 e 100**.
+## Mentalista - Game de Adivinhação
 
-<p align="center">
-  <a href="https://codepen.io/LGomess/full/WNKYJEr">
-    <img src="https://cdn.discordapp.com/attachments/990296596849782804/1071909230824669234/img-Mentalista.jpg?ex=66394f43&is=6637fdc3&hm=5239b1c7bd43cc770f641821108aa1039b08c5d804fb0ae82c4ac565829c5cb2&" width="550">
-  </a>
-</p>
+### Descrição
 
-<br>
+O Mentalista é um jogo de adivinhação no qual o jogador deve tentar descobrir um número secreto gerado aleatoriamente pelo sistema. O jogador tem um número limitado de tentativas para acertar o número. A cada tentativa, o sistema informa se o número digitado é maior ou menor que o número secreto.
 
-## Techs:
-Este jogo foi desenvolvido utilizando as seguintes tecnologias:
+### Funcionalidades
 
-* **HTML**: para estruturar o conteúdo da página web.
-* **CSS**: para estilizar a interface do jogo.
-* **JavaScript**: para implementar a lógica do jogo e torná-lo interativo.
+- **Gerar Número Secreto**: O jogo gera um número aleatório entre 1 e 100 no início de cada rodada.
+- **Verificar Tentativa**: O jogador pode digitar um número e verificar se é o número secreto. O sistema fornece feedback se o número é maior ou menor.
+- **Contagem de Tentativas**: O jogador tem um máximo de 7 tentativas para adivinhar o número secreto.
+- **Reiniciar Jogo**: O jogador pode reiniciar o jogo a qualquer momento, restaurando o número de tentativas e gerando um novo número secreto.
+- **Mensagens de Feedback**: Mensagens visuais informam o jogador sobre o progresso do jogo e o resultado das tentativas.
+- **Interface Responsiva**: A interface do jogo é responsiva e adaptável a diferentes tamanhos de tela.
 
-<br>
+### Detalhes dos Arquivos
 
-## COMO JOGAR
-* O jogador escolhe um número e informa ao computador.
-* O computador informa se o número escolhido é maior ou menor do que o número gerado aleatoriamente.
-* O jogador então escolhe outro número baseado nas dicas do computador, repetindo o processo até acertar o número correto.
+#### `index.html`
 
+Este arquivo contém a estrutura HTML do jogo. Ele inclui:
 
-## REGRAS
-* O jogador tem até **7 tentativas** para adivinhar o número correto.
-* O computador irá fornecer dicas claras sobre o número escolhido ser **maior ou menor** do que o número gerado aleatoriamente.
+- Um campo de entrada para o jogador digitar um número.
+- Botões para verificar a tentativa e reiniciar o jogo.
+- Elementos para exibir as mensagens de feedback e o número de tentativas restantes.
+
+#### `script.js`
+
+Este arquivo contém a lógica principal do jogo, incluindo:
+
+- Geração do número secreto.
+- Manipulação das tentativas restantes.
+- Verificação da tentativa do jogador.
+- Atualização da interface com mensagens de feedback.
+- Funções auxiliares para limpar entradas, atualizar mensagens e remover classes de resultado.
+
+#### `style.css`
+
+Este arquivo contém o estilo visual do jogo, incluindo:
+
+- Estilos para o corpo e o fundo da página.
+- Estilos para os elementos principais do jogo, como o campo de entrada, botões e mensagens.
+- Estilos responsivos para adaptar a interface a diferentes tamanhos de tela.
+
+### Como Jogar
+
+1. Digite um número entre 1 e 100 no campo de entrada.
+2. Clique no botão "ENVIAR" para verificar sua tentativa.
+3. Receba feedback sobre se o número secreto é maior ou menor que o número digitado.
+4. Continue tentando até adivinhar o número secreto ou até que suas tentativas se esgotem.
+5. Clique no botão "Reiniciar" para começar um novo jogo a qualquer momento.
+
+### Como Executar o Projeto
+
+1. Clone este repositório em sua máquina local.
+2. Abra o arquivo `index.html` em um navegador web.
+3. Aproveite o jogo!
+
+### Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests com melhorias, correções de bugs ou novas funcionalidades.
+
+### Licença
+
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
